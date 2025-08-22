@@ -1,0 +1,38 @@
+# CODEOWNERS file for notification-backend-719
+# Global owners - will be requested for all PRs
+* @Armor-test/dept-api @Armor-test/squad-ml @Armor-test/squad-research
+
+# Directory ownership
+/styles/ @Armor-test/dept-ui @Armor-test/squad-mobile @Armor-test/grp-api
+/modules/ @Armor-test/unit-cloud @Armor-test/team-reporting @Armor-test/grp-integration
+/dist/ @Armor-test/grp-reporting @Armor-test/squad-performance
+/lib/ @Armor-test/squad-search @Armor-test/grp-reporting
+/models/ @Armor-test/team-security @Armor-test/squad-cache @Armor-test/grp-payments
+/data/ @Armor-test/unit-governance @Armor-test/squad-qa
+/migrations/ @Armor-test/dept-notifications @Armor-test/squad-mobile
+/web/ @Armor-test/grp-payments @Armor-test/squad-api
+/plugins/ @Armor-test/squad-cloud @Armor-test/squad-reporting
+/ui/ @Armor-test/team-reporting @Armor-test/squad-research @Armor-test/team-logging
+/components/ @Armor-test/squad-cache @Armor-test/squad-reporting @Armor-test/dept-test
+/common/ @Armor-test/dept-security @Armor-test/squad-ml @Armor-test/squad-performance
+/docs/ @Armor-test/squad-qa @Armor-test/dept-identity @Armor-test/grp-storage
+
+# File type ownership
+*.java @Armor-test/squad-performance @Armor-test/grp-ui @Armor-test/squad-reporting
+*.tsx @Armor-test/squad-cache @Armor-test/dept-billing
+*.rb @Armor-test/dept-identity @Armor-test/squad-qa
+*.md @Armor-test/squad-qa @Armor-test/unit-cloud
+*.py @Armor-test/dept-billing @Armor-test/unit-cloud
+*.kt @Armor-test/dept-data @Armor-test/team-research @Armor-test/grp-ui
+*.go @Armor-test/squad-apps @Armor-test/squad-api
+*.json @Armor-test/dept-test @Armor-test/squad-search
+*.ini @Armor-test/team-reporting @Armor-test/squad-cloud @Armor-test/dept-security
+*.jsx @Armor-test/grp-integration @Armor-test/squad-ux
+*.h @Armor-test/squad-product @Armor-test/grp-reporting
+*.xml @Armor-test/squad-apps @Armor-test/grp-reporting @Armor-test/squad-payments
+
+# Security and special files
+/src/**/security/ @Armor-test/security @Armor-test/compliance
+Jenkinsfile @Armor-test/ci-team @Armor-test/devops
+Dockerfile @Armor-test/devops @Armor-test/infra
+.github/workflows/ @Armor-test/ci-team @Armor-test/devops
